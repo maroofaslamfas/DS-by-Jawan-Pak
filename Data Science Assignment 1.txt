@@ -1,0 +1,33 @@
+//Question 1
+
+x = "\tTwinkle, twinkle, little star,\n\t\tHow I wonder what your are!\n\t\t\tUp above the world so high,\n\t\t\tLike a diamond in the sky.\n\tTwinkle, twikle, little star,\n\t\tHow I wonder what you are"
+print(x)
+
+//Question 2
+
+import sys 
+print(sys.version)
+
+//Question 3
+
+from datetime import datetime
+
+now = datetime.now()
+print("Date and Time", now.strftime("%d-%m-%y and %H:%M:%S"))
+
+//Question 4
+
+r = int(input("Enter Radius of Circle: "))
+print("Area of Circle ", 2*3.14*pow(r,2))
+
+//Question 5
+
+first = str(input("Enter First Name: "))
+second = str(input("Ener Second Name: "))
+print(second, " ", first)
+
+//Question 6
+
+first = int(input("Enter First Name: "))
+second = int(input("Ener Second Name: "))
+print("Sum of The Number", first + second)
